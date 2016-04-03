@@ -1,0 +1,39 @@
+.nav{
+font-family: "Merriweather";
+    font-size: 14px;
+    line-height: 1.8em;
+    text-transform: none;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+.nav a{
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 38px;
+  margin-left: 1em;
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-Italic.ttf) format("truetype");
+}
+.nav-pad{
+  margin-top: 15px;
+}
+
+.header-line{
+font-family: "bebas-neue";
+    font-size: 17px;
+    line-height: 3.3em;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+.pad-top{
+  margin-top: 200px;
+}
