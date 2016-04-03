@@ -18,33 +18,36 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
+        <div align="center" class="col-md-12">
           <img class="pad-top" src="./assets/images/champsLogo.jpeg" alt="Champs Diner Brooklyn Vegan Food" />
-        </div>
-        <div class="col-md-4">
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <p class="header-line center-block" style="text-align: center;">197 Meserole Street, Brooklyn, NY 11206   |   718 599 2743   |   Champsvegan@Gmail.Com</p>
+          <p class="header-line center-block" style="text-align: center;">197 Meserole Street, Brooklyn, NY 11206   |   718 599 2743   |   info@champsdiner.com | Monday-Sunday 8am-12am</p>
         </div>
       </div>
       <div class="row nav-pad">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
+        <div align="center" class="col-md-12">
           <p class="nav"><a href="/about/">About</a><a href="/menu/">Menu</a><a href="/pictures/">Pictures</a><a href="/contact/">Contact</a> </p>
         </div>
-        <div class="col-md-3">
-        </div>
       </div>
+      <div id="instafeed"></div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/instafeed.min.js"></script>
+    <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: 'champsdiner',
+        clientId: ' d493e536ca7f49b6bc9e269e83924daf'
+    });
+    feed.run();
+</script>
+
   </body>
 </html>
