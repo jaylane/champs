@@ -37,3 +37,18 @@ font-family: "bebas-neue";
 .pad-top{
   margin-top: 200px;
 }
+.insti{
+  margin: 15px;
+}
+#instafeed img{
+  height:100px;
+  width:100px;
+}
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
