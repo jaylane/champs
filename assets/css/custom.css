@@ -34,8 +34,22 @@ font-family: "bebas-neue";
     font-style: normal;
     color: #000;
 }
+.header-line-sm{
+font-family: "bebas-neue";
+    font-size: 10px;
+    line-height: 2em;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
 .pad-top{
-  margin-top: 200px;
+  margin-top: 140px;
+}
+.pad-top-sm{
+  margin-top: 120px;
 }
 .insti{
   margin: 15px;
@@ -54,4 +68,14 @@ font-family: "bebas-neue";
 }
 .footer-copy{
 margin-top:30px;
+margin-bottom:30px;
+}
+.horizon-vert{
+position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+
 }

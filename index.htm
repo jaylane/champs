@@ -19,86 +19,84 @@
   </head>
   <body>
     <div class="container-fluid">
-
-        <div align="center" class="col-md-12">
-          <img class="pad-top" src="./assets/images/champsLogo.jpeg" alt="Champs Diner Brooklyn Vegan Food" />
-        </div>
-
-
-        <div class="col-md-12">
-          <p class="header-line center-block" style="text-align: center;">197 Meserole Street, Brooklyn, NY 11206   |   718 599 2743   |   info@champsdiner.com | Monday-Sunday 8am-12am</p>
-        </div>
-
-
-        <div class="col-md-12">
-   <nav class = "navbar navbar-default" role = "navigation">
-
-   <div class = "navbar-header">
-      <button type = "button" class = "navbar-toggle"
-         data-toggle = "collapse" data-target = "#example-navbar-collapse">
-         <span class = "sr-only">Toggle navigation</span>
-         <span class = "icon-bar"></span>
-         <span class = "icon-bar"></span>
-         <span class = "icon-bar"></span>
-      </button>
-
-
-   </div>
-
-   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
-
-      <ul class = "nav navbar-nav">
-         <li><a href = "#">About</a></li>
-         <li><a href = "#">Catering</a></li>
-
-         <li class = "dropdown">
-            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
-               Menus
-               <b class = "caret"></b>
-            </a>
-
-            <ul class = "dropdown-menu">
-               <li class = "divider"></li>
-               <li><a href = "./assets/menus/menu_am.pdf" target="_blank">AM</a></li>
-
-               <li class = "divider"></li>
-               <li><a href = "./assets/menus/menu_pm.pdf" target="_blank">PM</a></li>
+      <div align="center" class="col-md-12 col-xs-12">
+        <img class="pad-top visible-md" src="./assets/images/champsLogo.jpeg" alt="Champs Diner Brooklyn Vegan Food" />
+          <img class="pad-top-sm visible-xs" style="width:260px;" src="./assets/images/champsLogo.jpeg" alt="Champs Diner Brooklyn Vegan Food" />
+          <img class="pad-top visible-sm" src="./assets/images/champsLogo.jpeg" alt="Champs Diner Brooklyn Vegan Food" />
+          <img class="pad-top visible-lg" src="./assets/images/champsLogo.jpeg" alt="Champs Diner Brooklyn Vegan Food" />
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <p class="hidden-xs header-line center-block" style="text-align: center;">197 Meserole Street, Brooklyn, NY 11206   |   718 599 2743   |   info@champsdiner.com | Monday-Sunday 8am-12am</p>
+          <div class="header-line-sm text-center visible-xs">
+            <ul class="list-unstyled">
+              <li>197 Meserole Street, Brooklyn, NY 11206</li>
+              <li>718 599 2743</li>
+              <li>info@champsdiner.com</li>
+              <li>Diner Hours: Monday-Sunday 8am-12am</li>
             </ul>
-
-         </li>
-        <li><a href = "#">Contact</a></li>
-      </ul>
-   </div>
-
-</nav>
-</div>
-
-
-        <div align="center" class="col-md-12">
-          <div id="instafeed"></div>
+          </div>
+      </div>
+      <div class="col-xs-2"></div>
+      <div class="col-md-12 col-xs-12">
+        <nav class = "navbar navbar-default" role = "navigation">
+          <div class = "navbar-header">
+            <button type = "button" class = "navbar-toggle"
+               data-toggle = "collapse" data-target = "#example-navbar-collapse">
+               <span class = "sr-only">Toggle navigation</span>
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+            </button>
+          </div>
+          <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+            <ul class = "nav navbar-nav">
+              <li><a href = "#">About</a></li>
+              <li><a href = "#">Catering</a></li>
+              <li class = "dropdown">
+                <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+                  Menus
+                  <b class = "caret"></b>
+                </a>
+                <ul class = "dropdown-menu">
+                  <li class = "divider"></li>
+                  <li><a href = "./assets/menus/menu_am.pdf" target="_blank">AM</a></li>
+                  <li class = "divider"></li>
+                 <li><a href = "./assets/menus/menu_pm.pdf" target="_blank">PM</a></li>
+                </ul>
+              </li>
+              <li><a href = "#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="col-xs-2"></div>
+      <div class="col-md-2">S
         </div>
-
-
-<footer>
-<div align="center" class="col-md-12 footer-copy">
-made with <i class="glyphicon glyphicon-heart"></i> by <a style="color:black;text-decoration: none;" href="http://www.jay-lane.com" alt="jay lane web developer brooklyn">jay lane</a> | copyright champs diner 2016
-</div>
-</footer>
-</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/instafeed.min.js"></script>
-    <script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'user',
-        userId: '15796959',
-        clientId: 'cc55923c80494db8a06aba69de303712',
-        accessToken: '15796959.d493e53.5fdfb3f914f2449b8eab0fa58bcaa5bb',
-        template: '<a href="{{link}}"><img src="{{image}}" /></a>',
-        limit: '18'
-    });
-    feed.run();
-</script>
-
-  </body>
+          <div align="center" class="well col-md-8 col-xs-12">
+            <h4>@champsdiner on Instagram</h4>
+              <div id="instafeed"></div>
+          </div>
+          <div class="col-md-2"></div>
+          <footer>
+            <div align="center" class="col-md-12 footer-copy col-xs-12">
+              made with <i class="glyphicon glyphicon-heart"></i> by <a style="color:black;text-decoration: none;" href="http://www.jay-lane.com" alt="jay lane web developer brooklyn">jay lane</a> | copyright champs diner 2016
+            </div>
+          </footer>
+        </div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <script src="./assets/js/bootstrap.min.js"></script>
+          <script src="./assets/js/instafeed.min.js"></script>
+          <script type="text/javascript">
+            var feed = new Instafeed({
+                get: 'usser',
+                userId: '15796959',
+                clientId: 'cc55923c80494db8a06aba69de303712',
+                accessToken: '15796959.d493e53.5fdfb3f914f2449b8eab0fa58bcaa5bb',
+                template: '<a href="{{link}}"><img src="{{image}}" /></a>',
+                limit: '18'
+            });
+            feed.run();
+          </script>
+      </body>
 </html>
+
