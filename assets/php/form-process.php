@@ -24,7 +24,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "jason.j.lane@gmail.com";
+$EmailTo = "contact@champsdiner.com";
 $Subject = "Contact Us Submission from Champsdiner.com";
 
 // prepare email body text
