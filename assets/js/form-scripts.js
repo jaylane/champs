@@ -19,7 +19,7 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "http://staging.champsdiner.com/assets/php/form-process.php",
+        url: "../php/form-process.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
