@@ -1,5 +1,9 @@
+body{
+  font-family: "Helvetica", "Arial";
+  color: #000;
+}
 .nav, .about-us{
-font-family: "Merriweather";
+font-family: "Helvetica","Arial";
     font-size: 14px;
     line-height: 1.8em;
     text-transform: none;
@@ -24,10 +28,10 @@ font-family: "Merriweather";
 }
 
 .header-line{
-font-family: "bebas-neue";
+font-family: "helvetica";
     font-size: 17px;
     line-height: 3.3em;
-    text-transform: capitalize;
+    text-transform: none;
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 400;
@@ -35,10 +39,10 @@ font-family: "bebas-neue";
     color: #000;
 }
 .header-line-sm{
-font-family: "bebas-neue";
+font-family: "helvetica";
     font-size: 10px;
     line-height: 2em;
-    text-transform: capitalize;
+    text-transform: lowercase;
     text-decoration: none;
     letter-spacing: 1.5px;
     font-weight: 400;
@@ -78,4 +82,7 @@ position: absolute;
        right: 0;
        margin: auto;
 
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
 }
