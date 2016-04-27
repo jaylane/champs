@@ -1,15 +1,19 @@
 body{
-  font-family: "Helvetica", "Arial";
+  font-family: "Bebas Neue","Helvetica", "Arial";
   color: #000;
 }
-.nav, .about-us{
-font-family: "Helvetica","Arial";
-    font-size: 14px;
+.about-us{
+  font-family: "Bebas Neue","Helvetica", "Arial";
+    font-size: 20px;
     line-height: 1.8em;
     text-transform: none;
     font-weight: 300;
     font-style: normal;
     text-decoration: none;
+    letter-spacing: 0.5px;
+}
+h2{
+  font-size: 45px;
 }
 .nav a{
   color: black;
@@ -19,16 +23,29 @@ font-family: "Helvetica","Arial";
   font-size: 38px;
   margin-left: 1em;
 }
+@font-face{
+    font-family: "ufonts.com_bauer-bodoni-d-bold-italic";
+    src: url(../fonts/ufonts.com_bauer-bodoni-d-bold-italic.ttf) format("truetype");
+}
+.nav, h1, h2, h3, h4, h5 {
+  font-family: "ufonts.com_bauer-bodoni-d-bold-italic","Helvetica","Arial";
+    line-height: 1.8em;
+    text-transform: none;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
 @font-face {
-    font-family: "Merriweather";
-    src: url(../fonts/Merriweather-Italic.ttf) format("truetype");
+    font-family: "Bebas Neue";
+    src: url(../fonts/BebasNeue.otf) format("opentype");
+    text-transform: capitalize;
 }
 .nav-pad{
   margin-top: 15px;
 }
 
 .header-line{
-font-family: "helvetica";
+  font-family: "Bebas Neue","Helvetica", "Arial";
     font-size: 17px;
     line-height: 3.3em;
     text-transform: none;
@@ -39,7 +56,7 @@ font-family: "helvetica";
     color: #000;
 }
 .header-line-sm{
-font-family: "helvetica";
+  font-family: "Bebas Neue","Helvetica", "Arial";
     font-size: 10px;
     line-height: 2em;
     text-transform: lowercase;
